@@ -1,0 +1,15 @@
+C:\Users\Haci\source\repos\A1\A1\bin\Debug\A1.exe.config
+C:\Users\Haci\source\repos\A1\A1\bin\Debug\A1.exe
+C:\Users\Haci\source\repos\A1\A1\bin\Debug\A1.pdb
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.csprojAssemblyReference.cache
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.Properties.Resources.resources
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.csproj.GenerateResource.cache
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.exe
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.pdb
+C:\Users\Haci\source\repos\A1\A1\bin\Debug\MetroFramework.Design.dll
+C:\Users\Haci\source\repos\A1\A1\bin\Debug\MetroFramework.dll
+C:\Users\Haci\source\repos\A1\A1\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.csproj.CopyComplete
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.View.UC.SignUpControl.resources
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.View.UC.SignInControl.resources
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.View.MainForm.resources
