@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace A1.View
 {
-    public partial class MainForm : Form, IMainView
+    public partial class MainView : Form, IMainView
     {
-        public MainForm()
+        public MainView()
         {
             InitializeComponent();
         }

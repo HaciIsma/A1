@@ -1,10 +1,5 @@
 ﻿using A1.View.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace A1.Presenter
 {
@@ -20,8 +15,7 @@ namespace A1.Presenter
 
         private void View_ClearClick(object sender, EventArgs e)
         {
-            //this.view.User = new Model.User { };
-            MessageBox.Show("Oki");
+            this.view.User = new Model.User { };
         }
 
         private void View_SignIn(object sender, EventArgs e)

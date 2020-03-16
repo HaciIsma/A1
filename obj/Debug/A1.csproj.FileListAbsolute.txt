@@ -12,4 +12,4 @@ C:\Users\Haci\source\repos\A1\A1\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.csproj.CopyComplete
 C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.View.UC.SignUpControl.resources
 C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.View.UC.SignInControl.resources
-C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.View.MainForm.resources
+C:\Users\Haci\source\repos\A1\A1\obj\Debug\A1.View.MainView.resources

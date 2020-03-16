@@ -1,9 +1,6 @@
 ﻿using A1.Presenter;
 using A1.View;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace A1
@@ -18,9 +15,9 @@ namespace A1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            var view = new MainForm();
+            var view = new MainView();
             var presenter = new MainPresenter(view);
-            Application.Run(new MainForm());
+            Application.Run(view);
         }
     }
 }

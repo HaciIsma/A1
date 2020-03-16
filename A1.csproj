@@ -67,11 +67,11 @@
     <Compile Include="View\Interfaces\IMainView.cs" />
     <Compile Include="View\Interfaces\ISignInControl.cs" />
     <Compile Include="View\Interfaces\ISignUpControl.cs" />
-    <Compile Include="View\Forms\MainForm.cs">
+    <Compile Include="View\Forms\MainView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Forms\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="View\Forms\MainView.Designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
     </Compile>
     <Compile Include="View\UC\SignInControl.cs">
       <SubType>UserControl</SubType>
@@ -94,8 +94,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\Forms\MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="View\Forms\MainView.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\UC\SignInControl.resx">
       <DependentUpon>SignInControl.cs</DependentUpon>

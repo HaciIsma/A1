@@ -1,6 +1,6 @@
 ﻿namespace A1.View
 {
-    partial class MainForm
+    partial class MainView
     {
         /// <summary>
         /// Required designer variable.
