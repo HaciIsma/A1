@@ -164,6 +164,7 @@
     <Compile Include="Presenter\SignUpSubPresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\DBService.cs" />
     <Compile Include="View\Interfaces\IMainView.cs" />
     <Compile Include="View\Interfaces\ISignInControl.cs" />
     <Compile Include="View\Interfaces\ISignUpControl.cs" />
@@ -172,6 +173,12 @@
     </Compile>
     <Compile Include="View\Forms\MainView.Designer.cs">
       <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UC\SecurityControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UC\SecurityControl.Designer.cs">
+      <DependentUpon>SecurityControl.cs</DependentUpon>
     </Compile>
     <Compile Include="View\UC\SignInControl.cs">
       <SubType>UserControl</SubType>
@@ -197,6 +204,9 @@
     <EmbeddedResource Include="View\Forms\MainView.resx">
       <DependentUpon>MainView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\UC\SecurityControl.resx">
+      <DependentUpon>SecurityControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\UC\SignInControl.resx">
       <DependentUpon>SignInControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -217,9 +227,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Service\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.2\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.2\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -19,16 +19,7 @@ namespace A1.Service
             }
         }
 
-        public void Add(User user)
-        {
-            using (AppDBContext appDB=new AppDBContext())
-            {
-                appDB.Add(user);
-                appDB.SaveChanges();
-            }
-        }
-
-        public User Search(Expression<Func<User, bool>> filter)
+        public User Get(Expression<Func<User, bool>> filter)
         {
             using (AppDBContext appDB = new AppDBContext())
             {
@@ -36,7 +27,31 @@ namespace A1.Service
             }
         }
 
-        public void Delete(Expression<Func<User,bool>> filter) 
+        public void Add(User user)
+        {
+            using (AppDBContext appDB = new AppDBContext())
+            {
+                appDB.Add(user);
+                appDB.SaveChanges();
+            }
+        }
+
+        public bool Search(Expression<Func<User, bool>> filter)
+        {
+            using (AppDBContext appDB = new AppDBContext())
+            {
+                if (appDB.Users.FirstOrDefault(filter) != null)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
+
+        public void Delete(Expression<Func<User, bool>> filter)
         {
             using (AppDBContext appDB = new AppDBContext())
             {

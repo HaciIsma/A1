@@ -1,4 +1,5 @@
-﻿using A1.View.Interfaces;
+﻿using A1.Service;
+using A1.View.Interfaces;
 using System;
 
 namespace A1.Presenter
@@ -15,12 +16,16 @@ namespace A1.Presenter
 
         private void View_ClearClick(object sender, EventArgs e)
         {
-            this.view.User = new Model.User { };
+            view.User = new Model.User { };
         }
 
         private void View_SaveClick(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            DBService dBService = new DBService();
+            if (!dBService.Search(x => x.Username == view.User.Username))
+            {
+                dBService.Add(view.User);
+            }
         }
     }
 }
